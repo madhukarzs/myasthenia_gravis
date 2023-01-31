@@ -394,7 +394,7 @@ def Archetype_Journey():
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  4':
-                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster3.html.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster3.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
