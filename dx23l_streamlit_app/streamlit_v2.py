@@ -379,22 +379,22 @@ def Archetype_Journey():
 
     #    with col2:
             if cluster == 'Archetype  1':
-                HtmlFile = open("dx23l_cluster0.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster0.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  2':
-                HtmlFile = open("dx23l_cluster1.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster1.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  3':
-                HtmlFile = open("dx23l_cluster2.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster2.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  4':
-                HtmlFile = open("dx23l_cluster3.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster3.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
@@ -411,25 +411,25 @@ def Archetype_Journey():
 
     #    with col2:
             if cluster == 'Archetype 1':
-                HtmlFile = open("mg_dx_to_3l_cluster1.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster1.html", 'r', encoding='utf-8')
                 # st.markdown("""For Expanded View click here: <a href="https://github.com/deployapp-010/test1/blob/master/Cluster1_extension.html" target = "_blank"> Archetype 1 </a>""", unsafe_allow_html=True)
                 source_code = HtmlFile.read() 
                 components.html(source_code, height = 200)
 
             elif cluster == 'Archetype 2': 
-                HtmlFile = open("mg_dx_to_3l_cluster2.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster2.html", 'r', encoding='utf-8')
                 # st.markdown("""For Expanded View click here:<a href="https://github.com/deployapp-010/test1/blob/master/Cluster2_extension.html" target = "_blank"> Archetype 2 </a>""", unsafe_allow_html=True)
                 source_code = HtmlFile.read() 
                 components.html(source_code, height = 200) 
 
             elif cluster == 'Archetype 3': 
-                HtmlFile = open("mg_dx_to_3l_cluster3.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster3.html", 'r', encoding='utf-8')
                 # st.markdown("""For Expanded View click here:<a href="https://github.com/deployapp-010/test1/blob/master/Cluster3_extension.html" target = "_blank"> Archetype 3 </a>""", unsafe_allow_html=True)
                 source_code = HtmlFile.read() 
                 components.html(source_code, height = 200) 
 
             elif cluster == 'Archetype 4': 
-                HtmlFile = open("mg_dx_to_3l_cluster4.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster4.html", 'r', encoding='utf-8')
                 # st.markdown("""For Expanded View click here:<a href="https://github.com/deployapp-010/test1/blob/master/Cluster4_extension.html" target = "_blank"> Archetype 4 </a>""", unsafe_allow_html=True)
                 source_code = HtmlFile.read() 
                 components.html(source_code, height = 200) 
@@ -443,13 +443,13 @@ def Archetype_Journey():
         col1, col2, col3 = st.columns([0.5,1, 0.2])
         with col1:
             st.markdown("<h6 style='text-align: left; margin-left: 1rem; margin-bottom: 2.55rem; font-size:1.5rem'>Events</h6>", unsafe_allow_html=True)
-            HtmlFile = open("dx_to_3l_events_html.html", 'r', encoding='utf-8')
+            HtmlFile = open("dx23l_streamlit_app/dx_to_3l_events_html.html", 'r', encoding='utf-8')
             source_code = HtmlFile.read() 
             components.html(source_code, height = 800)
 
         with col2:
             st.markdown("<h6 style='text-align: left; margin-left: 1rem; font-size:1.5rem'>Frequency <em>(Each pixel represents frequency of event per quarter)</em></h6>", unsafe_allow_html=True)
-            HtmlFile = open("dx_to_3l_bitplot_html_overall_freq.html", 'r', encoding='utf-8')
+            HtmlFile = open("dx23l_streamlit_app/dx_to_3l_bitplot_html_overall_freq.html", 'r', encoding='utf-8')
             source_code = HtmlFile.read() 
             components.html(source_code, height = 800)
 
@@ -485,13 +485,13 @@ def Archetype_Journey():
         col1, col2, col3 = st.columns([0.5,1, 0.2])
         with col1:
             st.markdown("<h6 style='text-align: left; margin-left: 1rem; margin-bottom: 2.55rem; font-size:1.5rem'>Events</h6>", unsafe_allow_html=True)
-            HtmlFile = open("dx_to_3l_events_html.html", 'r', encoding='utf-8')
+            HtmlFile = open("dx23l_streamlit_app/dx_to_3l_events_html.html", 'r', encoding='utf-8')
             source_code = HtmlFile.read() 
             components.html(source_code, height = 800)
 
         with col2:
             st.markdown("<h6 style='text-align: left; margin-left: 1rem; font-size:1.5rem'>Prevalence <em>(Each pixel represents prevalence of event per quarter)</em></h6>", unsafe_allow_html=True)
-            HtmlFile = open("dx_to_3l_bitplot_html_overall_prev.html", 'r', encoding='utf-8')
+            HtmlFile = open("dx23l_streamlit_app/dx_to_3l_bitplot_html_overall_prev.html", 'r', encoding='utf-8')
             source_code = HtmlFile.read() 
             components.html(source_code, height = 800)
 
