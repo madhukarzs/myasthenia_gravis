@@ -379,22 +379,22 @@ def Archetype_Journey():
 
     #    with col2:
             if cluster == 'Archetype  1':
-                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster1.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster0.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  2':
-                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster2.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster1.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  3':
-                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster3.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster2.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
             elif cluster == 'Archetype  4':
-                HtmlFile = open("dx23l_streamlit_app/mg_dx_to_3l_cluster4.html", 'r', encoding='utf-8')
+                HtmlFile = open("dx23l_streamlit_app/dx23l_cluster3.html.html", 'r', encoding='utf-8')
                 source_code = HtmlFile.read()
                 components.html(source_code, height = 600)
 
