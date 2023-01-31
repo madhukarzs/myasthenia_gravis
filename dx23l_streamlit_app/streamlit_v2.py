@@ -155,15 +155,15 @@ cmap_cf = clr.LinearSegmentedColormap.from_list('custom cf', ['#5FBF6D','#34503A
 
 # path = 'C:/Users/pk37814/Documents/WayFinder/dx23l_streamlit_v1/Data/'
 
-static_data = pd.read_csv('static_data.csv') #
-demo = pd.read_csv('demographics.csv') #
-demo_data = pd.read_csv('demographics_data.csv') #
-data = pd.read_csv('metrics_master_table_new.csv') #
+static_data = pd.read_csv('dx23l_streamlit_app/static_data.csv') #
+demo = pd.read_csv('dx23l_streamlit_app/demographics.csv') #
+demo_data = pd.read_csv('dx23l_streamlit_app/demographics_data.csv') #
+data = pd.read_csv('dx23l_streamlit_app/metrics_master_table_new.csv') #
 # data['event_type'] = data['event_type'].apply(lambda x: ' '.join(x.split('_')[1:]).title())
-duration = pd.read_csv('duration_data.csv') #
-tsne_data = pd.read_csv('tsne_data1.csv')
-comorbidity_data = pd.read_csv('comorbidities_data.csv') #
-mapdata = pd.read_csv('map_data.csv')
+duration = pd.read_csv('dx23l_streamlit_app/duration_data.csv') #
+tsne_data = pd.read_csv('dx23l_streamlit_app/tsne_data1.csv')
+comorbidity_data = pd.read_csv('dx23l_streamlit_app/comorbidities_data.csv') #
+mapdata = pd.read_csv('dx23l_streamlit_app/map_data.csv')
 
 #------------------------------------------adding top menu-----------------------------------------------------------------------
 over_theme = {'txc_inactive': 'White','menu_background':'gray','txc_active':'black'}
